@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Quản lý Khách Sạn</title>
+</head>
+<body>
+    <header id="header">Quản lý Khách Sạn</header>
+    <nav id="menu"> 
+        <a href="#listkhach">Khách</a>
+        <a href="#listphong">Phòng</a>
+        <a href="#listdatphong">Đặt Phòng</a>
+        <a href="#listchinhanh">Chi Nhánh</a>
+        <a href="#listcoso">Cơ Sở</a>
+        <a href="#listdichvu">Dịch Vụ</a>
+    </nav>
+    <main> 
+        <section id="listkhach">
+            <h2>Danh sách Khách</h2>
+            <div id="data-khach" class="img-container"></div>
+        </section>
+        <section id="listphong">
+            <h2>Danh sách Phòng</h2>
+            <div id="data-phong" class="img-container"></div>
+        </section>
+        <section id="listdatphong">
+            <h2>Danh sách Đặt Phòng</h2>
+            <div id="data-datphong" class="img-container"></div>
+        </section>
+        <section id="listchinhanh">
+            <h2>Danh sách Chi Nhánh</h2>
+            <div id="data-chinhanh" class="img-container"></div>
+        </section>
+        <section id="listcoso">
+            <h2>Danh sách Cơ Sở</h2>
+            <div id="data-coso" class="img-container"></div>
+        </section>
+        <section id="listdichvu">
+            <h2>Danh sách Dịch Vụ</h2>
+            <div id="data-dichvu" class="img-container"></div>
+        </section>
+    </main>
+    <footer>Họ tên sinh viên: Trần Thành Sang PS29592</footer>
+    
+    <script type="module">
+        import { showlistkhach, showlistphong, showlistdatphong, showlistchinhanh, showlistcoso, showlistdichvu } from './js/app.js';
+        
+        // Gọi các hàm hiển thị dữ liệu
+        showlistkhach();
+        showlistphong();
+        showlistdatphong();
+        showlistchinhanh();
+        showlistcoso();
+        showlistdichvu();
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,51 @@
+{
+    "khach_arr": [
+      { "id": 1, "ten": "Nguyễn Văn A", "phone": "0901234567", "email": "a@gmail.com" },
+      { "id": 2, "ten": "Trần Thị B", "phone": "0912345678", "email": "b@gmail.com" },
+      { "id": 3, "ten": "Lê Văn C", "phone": "0923456789", "email": "c@gmail.com" },
+      { "id": 4, "ten": "Phạm Thị D", "phone": "0934567890", "email": "d@gmail.com" },
+      { "id": 5, "ten": "Vũ Văn E", "phone": "0945678901", "email": "e@gmail.com" },
+      { "id": 6, "ten": "Hoàng Thị F", "phone": "0956789012", "email": "f@gmail.com" }
+    ],
+    "phong_arr": [
+      { "id": 1, "ten": "Phòng Đơn", "gia": 500000, "mota": "Phòng dành cho 1 người" },
+      { "id": 2, "ten": "Phòng Đôi", "gia": 800000, "mota": "Phòng dành cho 2 người" },
+      { "id": 3, "ten": "Phòng Gia Đình", "gia": 1200000, "mota": "Phòng dành cho gia đình" },
+      { "id": 4, "ten": "Phòng VIP", "gia": 2000000, "mota": "Phòng sang trọng" },
+      { "id": 5, "ten": "Phòng Tiêu Chuẩn", "gia": 600000, "mota": "Phòng tiêu chuẩn" },
+      { "id": 6, "ten": "Phòng Cao Cấp", "gia": 1500000, "mota": "Phòng cao cấp" }
+    ],
+    "datphong_arr": [
+      { "id": 1, "tenKhach": "Nguyễn Văn A", "khachsanId": 1, "phongId": 1, "ngayDat": "2024-10-20" },
+      { "id": 2, "tenKhach": "Trần Thị B", "khachsanId": 1, "phongId": 2, "ngayDat": "2024-10-21" },
+      { "id": 3, "tenKhach": "Lê Văn C", "khachsanId": 2, "phongId": 3, "ngayDat": "2024-10-22" },
+      { "id": 4, "tenKhach": "Phạm Thị D", "khachsanId": 2, "phongId": 4, "ngayDat": "2024-10-23" },
+      { "id": 5, "tenKhach": "Vũ Văn E", "khachsanId": 3, "phongId": 5, "ngayDat": "2024-10-24" },
+      { "id": 6, "tenKhach": "Hoàng Thị F", "khachsanId": 3, "phongId": 6, "ngayDat": "2024-10-25" }
+    ],
+    "chinhanh_arr": [
+      { "id": 1, "ten": "Chi Nhánh A", "diachi": "Hà Nội", "hinh": "images/hn.jpg" },
+      { "id": 2, "ten": "Chi Nhánh B", "diachi": "Đà Nẵng", "hinh": "images/dn.jpg" },
+      { "id": 3, "ten": "Chi Nhánh C", "diachi": "Hồ Chí Minh", "hinh": "images/hcm.jpg" },
+      { "id": 4, "ten": "Chi Nhánh D", "diachi": "Nha Trang", "hinh": "images/nt.jpg" },
+      { "id": 5, "ten": "Chi Nhánh E", "diachi": "Phú Quốc", "hinh": "images/pq.jpg" },
+      { "id": 6, "ten": "Chi Nhánh F", "diachi": "Huế", "hinh": "images/hue.jpg" }
+    ],
+    "coso_arr": [
+      { "id": 1, "ten": "Cơ Sở A", "diachi": "Hà Nội", "ghichu": "Gần trung tâm" },
+      { "id": 2, "ten": "Cơ Sở B", "diachi": "Đà Nẵng", "ghichu": "Gần bãi biển" },
+      { "id": 3, "ten": "Cơ Sở C", "diachi": "Hồ Chí Minh", "ghichu": "Khu vực nhộn nhịp" },
+      { "id": 4, "ten": "Cơ Sở D", "diachi": "Nha Trang", "ghichu": "Gần khu du lịch" },
+      { "id": 5, "ten": "Cơ Sở E", "diachi": "Phú Quốc", "ghichu": "Khu nghỉ dưỡng" },
+      { "id": 6, "ten": "Cơ Sở F", "diachi": "Huế", "ghichu": "Gần di tích lịch sử" }
+    ],
+    "dichvu_arr": [
+      { "id": 1, "ten": "Dịch vụ Spa", "gia": 300000, "mota": "Thư giãn và làm đẹp" },
+      { "id": 2, "ten": "Dịch vụ ăn uống", "gia": 50000, "mota": "Bữa sáng miễn phí" },
+      { "id": 3, "ten": "Dịch vụ giặt ủi", "gia": 100000, "mota": "Giặt và sấy" },
+      { "id": 4, "ten": "Dịch vụ đưa đón", "gia": 200000, "mota": "Xe đưa đón sân bay" },
+      { "id": 5, "ten": "Dịch vụ tour du lịch", "gia": 800000, "mota": "Khám phá địa phương" },
+      { "id": 6, "ten": "Dịch vụ phòng tập", "gia": 150000, "mota": "Sử dụng phòng gym" }
+    ]
+  }
+  
